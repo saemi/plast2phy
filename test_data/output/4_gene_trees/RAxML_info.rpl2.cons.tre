@@ -1,0 +1,41 @@
+
+
+This is RAxML version 8.0.23 released by Alexandros Stamatakis on May 23 2014.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+David Dao         (KIT)
+Charlie Taylor    (UF)
+
+
+RAxML Bipartition Computation: Drawing support values from trees in file RAxML_bootstrap.rpl2.boot onto tree in file RAxML_bestTree.rpl2.GTRGAMMA
+
+
+RAxML was called as follows:
+
+/home/saemi/bin/raxmlHPC -m GTRGAMMA -p 12345 -f b -t RAxML_bestTree.rpl2.GTRGAMMA -z RAxML_bootstrap.rpl2.boot -n rpl2.cons.tre -o Pisum_sativum 
+
+
+
+
+Found 1 tree in File RAxML_bestTree.rpl2.GTRGAMMA
+
+
+
+Found 100 trees in File RAxML_bootstrap.rpl2.boot
+
+
+
+Found 1 tree in File RAxML_bestTree.rpl2.GTRGAMMA
+
+
+
+Time for Computation of Bipartitions 0.003611
+Tree with bipartitions written to file:  /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_bipartitions.rpl2.cons.tre
+Tree with bipartitions as branch labels written to file:  /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_bipartitionsBranchLabels.rpl2.cons.tre
+Execution information file written to :  /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_info.rpl2.cons.tre

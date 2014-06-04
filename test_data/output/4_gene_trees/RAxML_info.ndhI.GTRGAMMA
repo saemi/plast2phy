@@ -1,0 +1,158 @@
+
+
+IMPORTANT WARNING: Sequences Trifolium_glanduliferum and Trifolium_strictum are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file ndhI.phy.reduced
+
+
+This is RAxML version 8.0.23 released by Alexandros Stamatakis on May 23 2014.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+David Dao         (KIT)
+Charlie Taylor    (UF)
+
+
+Alignment has 12 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 10 inferences on the original alignment using 10 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 12
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/saemi/bin/raxmlHPC -m GTRGAMMA -s ndhI.phy -n ndhI.GTRGAMMA -N 10 -o Pisum_sativum -p 12345 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.323 0.153 0.176 0.349 
+
+
+WARNING the alpha parameter with a value of 12.813292 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0]: Time 0.004680 GAMMA-based likelihood -727.903474, best rearrangement setting 5
+alpha[0]: 12.813292 rates[0] ac ag at cg ct gt: 1.237879 1.070968 0.541517 0.755847 0.374205 1.000000 
+
+WARNING the alpha parameter with a value of 12.813297 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[1]: Time 0.003548 GAMMA-based likelihood -727.903477, best rearrangement setting 1
+alpha[0]: 12.813297 rates[0] ac ag at cg ct gt: 1.237879 1.070967 0.541517 0.755847 0.374205 1.000000 
+
+WARNING the alpha parameter with a value of 12.813297 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[2]: Time 0.003525 GAMMA-based likelihood -727.903477, best rearrangement setting 1
+alpha[0]: 12.813297 rates[0] ac ag at cg ct gt: 1.237879 1.070967 0.541517 0.755847 0.374205 1.000000 
+
+WARNING the alpha parameter with a value of 12.813292 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[3]: Time 0.003252 GAMMA-based likelihood -727.903474, best rearrangement setting 5
+alpha[0]: 12.813292 rates[0] ac ag at cg ct gt: 1.237879 1.070968 0.541517 0.755847 0.374205 1.000000 
+
+WARNING the alpha parameter with a value of 12.813297 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[4]: Time 0.003523 GAMMA-based likelihood -727.903477, best rearrangement setting 1
+alpha[0]: 12.813297 rates[0] ac ag at cg ct gt: 1.237879 1.070967 0.541517 0.755847 0.374205 1.000000 
+
+WARNING the alpha parameter with a value of 12.813297 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[5]: Time 0.003342 GAMMA-based likelihood -727.903477, best rearrangement setting 5
+alpha[0]: 12.813297 rates[0] ac ag at cg ct gt: 1.237879 1.070967 0.541517 0.755847 0.374205 1.000000 
+
+WARNING the alpha parameter with a value of 12.813292 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[6]: Time 0.003233 GAMMA-based likelihood -727.903474, best rearrangement setting 5
+alpha[0]: 12.813292 rates[0] ac ag at cg ct gt: 1.237879 1.070968 0.541517 0.755847 0.374205 1.000000 
+
+WARNING the alpha parameter with a value of 12.813297 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[7]: Time 0.003521 GAMMA-based likelihood -727.903477, best rearrangement setting 1
+alpha[0]: 12.813297 rates[0] ac ag at cg ct gt: 1.237879 1.070967 0.541517 0.755847 0.374205 1.000000 
+
+WARNING the alpha parameter with a value of 12.813292 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[8]: Time 0.003531 GAMMA-based likelihood -727.903474, best rearrangement setting 5
+alpha[0]: 12.813292 rates[0] ac ag at cg ct gt: 1.237879 1.070968 0.541517 0.755847 0.374205 1.000000 
+
+WARNING the alpha parameter with a value of 12.813297 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[9]: Time 0.003633 GAMMA-based likelihood -727.903477, best rearrangement setting 1
+alpha[0]: 12.813297 rates[0] ac ag at cg ct gt: 1.237879 1.070967 0.541517 0.755847 0.374205 1.000000 
+
+
+Conducting final model optimizations on all 10 trees under GAMMA-based models ....
+
+
+WARNING the alpha parameter with a value of 29.636351 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0] final GAMMA-based Likelihood: -727.846405 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.0
+Inference[1] final GAMMA-based Likelihood: -727.846408 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.1
+Inference[2] final GAMMA-based Likelihood: -727.846408 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.2
+Inference[3] final GAMMA-based Likelihood: -727.846405 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.3
+Inference[4] final GAMMA-based Likelihood: -727.846408 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.4
+Inference[5] final GAMMA-based Likelihood: -727.846408 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.5
+Inference[6] final GAMMA-based Likelihood: -727.846405 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.6
+Inference[7] final GAMMA-based Likelihood: -727.846408 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.7
+Inference[8] final GAMMA-based Likelihood: -727.846405 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.8
+Inference[9] final GAMMA-based Likelihood: -727.846408 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.ndhI.GTRGAMMA.RUN.9
+
+
+Starting final GAMMA-based thorough Optimization on tree 3 likelihood -727.846405 .... 
+
+Final GAMMA-based Score of best tree -727.846405
+
+Program execution info written to /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_info.ndhI.GTRGAMMA
+Best-scoring ML tree written to: /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_bestTree.ndhI.GTRGAMMA
+
+Overall execution time: 0.042156 secs or 0.000012 hours or 0.000000 days
+

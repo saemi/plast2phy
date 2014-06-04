@@ -1,0 +1,93 @@
+
+
+This is RAxML version 8.0.23 released by Alexandros Stamatakis on May 23 2014.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+David Dao         (KIT)
+Charlie Taylor    (UF)
+
+
+Alignment has 30 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 10 inferences on the original alignment using 10 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 30
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/saemi/bin/raxmlHPC -m GTRGAMMA -s psbC.phy -n psbC.GTRGAMMA -N 10 -o Pisum_sativum -p 12345 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.239 0.187 0.241 0.332 
+
+Inference[0]: Time 0.005862 GAMMA-based likelihood -2269.165256, best rearrangement setting 5
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206572 1.860254 0.276081 0.561887 1.960160 1.000000 
+Inference[1]: Time 0.009868 GAMMA-based likelihood -2269.165245, best rearrangement setting 1
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206575 1.860259 0.276082 0.561889 1.960165 1.000000 
+Inference[2]: Time 0.008775 GAMMA-based likelihood -2269.165245, best rearrangement setting 1
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206575 1.860259 0.276082 0.561889 1.960165 1.000000 
+Inference[3]: Time 0.005472 GAMMA-based likelihood -2269.165263, best rearrangement setting 1
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206571 1.860252 0.276081 0.561887 1.960157 1.000000 
+Inference[4]: Time 0.005554 GAMMA-based likelihood -2269.165245, best rearrangement setting 1
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206575 1.860259 0.276082 0.561889 1.960165 1.000000 
+Inference[5]: Time 0.005496 GAMMA-based likelihood -2269.165263, best rearrangement setting 1
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206571 1.860252 0.276081 0.561887 1.960157 1.000000 
+Inference[6]: Time 0.005443 GAMMA-based likelihood -2269.165263, best rearrangement setting 1
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206571 1.860252 0.276081 0.561887 1.960157 1.000000 
+Inference[7]: Time 0.005763 GAMMA-based likelihood -2269.165263, best rearrangement setting 1
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206571 1.860252 0.276081 0.561887 1.960157 1.000000 
+Inference[8]: Time 0.005545 GAMMA-based likelihood -2269.165263, best rearrangement setting 1
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206571 1.860252 0.276081 0.561887 1.960157 1.000000 
+Inference[9]: Time 0.005580 GAMMA-based likelihood -2269.165245, best rearrangement setting 1
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.206575 1.860259 0.276082 0.561889 1.960165 1.000000 
+
+
+Conducting final model optimizations on all 10 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.0
+Inference[1] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.1
+Inference[2] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.2
+Inference[3] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.3
+Inference[4] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.4
+Inference[5] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.5
+Inference[6] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.6
+Inference[7] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.7
+Inference[8] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.8
+Inference[9] final GAMMA-based Likelihood: -2267.719320 tree written to file /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_result.psbC.GTRGAMMA.RUN.9
+
+
+Starting final GAMMA-based thorough Optimization on tree 1 likelihood -2267.719320 .... 
+
+Final GAMMA-based Score of best tree -2267.719320
+
+Program execution info written to /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_info.psbC.GTRGAMMA
+Best-scoring ML tree written to: /home/saemi/projects/plast2phy/results/2014-06-02/plast2phy/output/4_gene_trees/RAxML_bestTree.psbC.GTRGAMMA
+
+Overall execution time: 0.073929 secs or 0.000021 hours or 0.000001 days
+
