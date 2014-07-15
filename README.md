@@ -3,15 +3,16 @@ plast2phy
 
 Pipeline written in python, that extracts protein coding genes from whole plastome assemblies/annotation and uses them in phylogenetic reconstruction. Is is written and tested on Ubuntu GNU/Linux, V.14.04. Should work on previous versions of Ubuntu. 
 
-Dependenceis:
-DPENDENCIES
+Dependenceis.
+
 Python modules
-  sh (http://amoffat.github.io/sh/)
-  Biopython (python-biopython in ubuntu)
+* sh (http://amoffat.github.io/sh/)
+* Biopython (python-biopython in ubuntu)
+
 Programs/scripts in PATH or ./bin/
-  mafft (apt-get install mafft in ubuntu) [http://mafft.cbrc.jp/alignment/software/linux.html]
-  trimal v.1.2 () [http://trimal.cgenomics.org/]
-  raxml v.8.x.x() [https://github.com/stamatak/standard-RAxML]
+* mafft (apt-get install mafft in ubuntu) [http://mafft.cbrc.jp/alignment/software/linux.html]
+* trimal v.1.2 () [http://trimal.cgenomics.org/]
+* raxml v.8.x.x() [https://github.com/stamatak/standard-RAxML]
 
 
 
