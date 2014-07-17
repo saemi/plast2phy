@@ -25,9 +25,11 @@ How to test the pipeline:
 
 2) cd test_data/
 
-3) ../run_plast2phy.py -c plast2phy_test.conf
+3) mkdir input && ../format_input_plast2phy.py -i plastid_cds_aa/Pisum_sativum_plastidGenome_DOGMA_nucleotide.fa -o input/ -s Pisum_sativum -f d -t n && ../format_input_plast2phy.py -i plastid_cds_aa/Trifolium_glanduliferum_plastidGenome_DOGMA_nucleotide.fa -o input/ -s Trifolium_glanduliferum -f d -t n && ../format_input_plast2phy.py -i plastid_cds_aa/Trifolium_strictum_plastidGenome_DOGMA_nucleotide.fa -s Trifolium_strictum -f d -t n -o input/
 
-4) The pipeline should run without errors and end by printing out: Nexus file (without models) written to output/5_concat_nexus/t2phy_test.nex 
+4) ../run_plast2phy.py -c plast2phy_test.conf
+
+The pipeline should run without errors and end by printing out: Nexus file (without models) written to output/5_concat_nexus/t2phy_test.nex 
 
 How to run the pipeline:
 
