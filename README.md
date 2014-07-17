@@ -9,11 +9,11 @@ Python modules
 * sh (http://amoffat.github.io/sh/)
 * Biopython (python-biopython in ubuntu)
 
-Programs/scripts in PATH or ./bin/
+Programs/scripts in PATH
 * mafft (apt-get install mafft in ubuntu) [http://mafft.cbrc.jp/alignment/software/linux.html]
 * trimal v.1.2 () [http://trimal.cgenomics.org/]
 * raxml v.8.x.x() [https://github.com/stamatak/standard-RAxML]
-
+* convertFasta2Phylip.sh (located in ./bin/), copy to PATH
 
 
 How to run pipeline:
