@@ -53,7 +53,7 @@ def which(program):
 def main():
     '''Checks for required programs and modules'''
     modules = ['Bio', 'sh']
-    required_programs = ['mafft', 'raxmlHPC']
+    required_programs = ['mafft', 'raxmlHPC', 'trimal']
     check_modules(modules)
     for program in required_programs:
         path_true = which(program)
