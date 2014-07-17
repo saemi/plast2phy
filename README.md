@@ -24,7 +24,7 @@ How to test the pipeline:
 
 2) cd test_data/
 
-3) mkdir input && ../format_input_plast2phy.py -i plastid_cds_aa/Pisum_sativum_plastidGenome_DOGMA_nucleotide.fa -o input/ -s Pisum_sativum -f d -t n && ../format_input_plast2phy.py -i plastid_cds_aa/Trifolium_glanduliferum_plastidGenome_DOGMA_nucleotide.fa -o input/ -s Trifolium_glanduliferum -f d -t n && ../format_input_plast2phy.py -i plastid_cds_aa/Trifolium_strictum_plastidGenome_DOGMA_nucleotide.fa -s Trifolium_strictum -f d -t n -o input/ && ../format_input_plast2phy.py -i plastid_cds_aa/Trifolium_lupinaster_plastidGenome_DOGMA_nucleotide.fa -o input/ -s Trifolium_lupinaster -f d -t
+3) mkdir input && ../format_input_plast2phy.py -i plastid_cds_aa/Pisum_sativum_plastidGenome_DOGMA_nucleotide.fa -o input/ -s Pisum_sativum -f d -t n && ../format_input_plast2phy.py -i plastid_cds_aa/Trifolium_glanduliferum_plastidGenome_DOGMA_nucleotide.fa -o input/ -s Trifolium_glanduliferum -f d -t n && ../format_input_plast2phy.py -i plastid_cds_aa/Trifolium_strictum_plastidGenome_DOGMA_nucleotide.fa -s Trifolium_strictum -f d -t n -o input/ && ../format_input_plast2phy.py -i plastid_cds_aa/Trifolium_lupinaster_plastidGenome_DOGMA_nucleotide.fa -o input/ -s Trifolium_lupinaster -f d -t n
 
 4) ../run_plast2phy.py -c plast2phy_test.conf
 
