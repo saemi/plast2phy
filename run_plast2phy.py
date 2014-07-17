@@ -16,8 +16,9 @@ from random import randint
 
 def parse_arguments():
     '''Parses arguments from input'''
-    parser = argparse.ArgumentParser(description='Converts input fasta files from ' +\
-        'either DOGMA or NCBI plastid files, to plast2phy format.')
+    parser = argparse.ArgumentParser(description='Runs the plast2phy ' +\
+        'pipeline on correctly formatted files from the ' +\
+	'format_input_plast2phy.py script')
     parser.add_argument('-c', '--conf', help='Config file', required=True)
     return parser
 
@@ -247,7 +248,7 @@ def conv_fasta_to_phylip(trim_aln_dir, gene_trees, list_of_genes):
     '''Converst fasta alignments to phylip'''
     import sh
     make_output_directory(gene_trees)
-    run = sh.Command("./bin/convertFasta2Phylip.sh")
+    run = sh.Command("convertFasta2Phylip.sh")
     for gene in list_of_genes:
         run(trim_aln_dir + gene + '.trim.aln.fa',
             _out=gene_trees + gene + ".phy")
@@ -299,19 +300,22 @@ def raxml_consensus(gene_trees, model, outgroup, list_of_genes):
     return
 
 
-def make_concat_nexus(trim_aln_dir, outdir_concat_nex, list_of_genes):
+def make_concat_nexus(trim_aln_dir, outdir_concat_nex, list_of_genes, 
+	output_prefix):
     '''Concatenates the alignments into a nexus file '''
     make_output_directory(outdir_concat_nex)
     nexus_header = generate_nexus_header(list_of_genes, trim_aln_dir)
     nexus_main = generate_nexus_main(trim_aln_dir, list_of_genes)
     nexus_end = generate_nexus_tail()
     nexus_file_wo_models = nexus_header + nexus_main + nexus_end
-    write_nexus_file_wo_models(nexus_file_wo_models, outdir_concat_nex)
+    write_nexus_file_wo_models(nexus_file_wo_models, outdir_concat_nex, 
+	output_prefix)
     return
 
 
-def write_nexus_file_wo_models(nexus_file_wo_models, outdir_concat_nex):
-    out_nexus_file = outdir_concat_nex + 'plast2phy_lathyrus_wo_models.nex'
+def write_nexus_file_wo_models(nexus_file_wo_models, outdir_concat_nex,
+	output_prefix):
+    out_nexus_file = outdir_concat_nex + output_prefix + '.nex'
     f_out = open(out_nexus_file, 'w')
     f_out.write(nexus_file_wo_models)
     f_out.close()
@@ -491,7 +495,8 @@ def main():
         raxml_consensus(outdir_gene_trees, model, outgroup, list_of_genes)
         # NEED TO ADD SOMETHING TO CONCATENATE THE TREES AND KEEP NAMES
     # 6.1 Generate concatenated nexus file
-    make_concat_nexus(outdir_trim_align, outdir_concat_nex, list_of_genes)
+    output_prefix = ConfigSectionMap('output')['output_prefix']
+    make_concat_nexus(outdir_trim_align, outdir_concat_nex, list_of_genes, output_prefix)
 
 
 main()
