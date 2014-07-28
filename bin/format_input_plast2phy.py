@@ -69,10 +69,9 @@ def read_fasta(fastafile, input_format):
         else:
             return(zip(new_gene_names, gene_sequences))
     elif input_format == 'n':
-        for gene in SeqIO.parse(f, 'fasta'):
+        for gene in SeqIO.parse(fastafile, 'fasta'):
             new_gene_names.append(rename_ncbi_gene(gene))
             gene_sequences.append(str(gene.seq))
-        f.close()
         return(zip(new_gene_names,gene_sequences))
 
 
