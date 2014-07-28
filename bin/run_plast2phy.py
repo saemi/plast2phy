@@ -37,8 +37,7 @@ def parse_config_file(config_file):
     INPUT_CDS = ConfigSectionMap('folders')['input_folder'] + '/'
     LIST_OF_SPECIES = get_list_of_species(ConfigSectionMap('species')['species_to_use'],
         int(ConfigSectionMap('species')['number_of_species']))
-    GENES_TO_EXCLUDE = ConfigSectionMap('genes')['genes_to_exclude'].\
-        replace(' ', '').split()
+    GENES_TO_EXCLUDE = ConfigSectionMap('genes')['genes_to_exclude'].split()
     return Config
 
 
